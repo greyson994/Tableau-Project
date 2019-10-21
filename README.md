@@ -1,0 +1,40 @@
+# Tableau-Project
+
+CitiBike Analysis
+
+Demographic Insights:
+
+Upon examining the data there is a definite skew of CitiBike users in NYC to be male; 79% Male, 21% Female, or 47.5K vs. 10.2K. This trend was consistent across age groups and both genders were represented at nearly every age.
+
+Despite having less total users, female bikers averaged 5.6% longer trips than their male counterparts. While my data set did not include distance, further analysis could be done to calculate distance traveled per trip based on latitude and longitude of bike pick-up/drop-off sites to see if this longer average trip duration is due to slower travel speeds or longer distances.
+
+High-level Age Demographic Observations:
+
+34% of all CitiBike users in this data set were between the ages of 25 and 34.
+33% of all CitiBike users in this data set were between the ages of 35 and 44.
+
+Ergo,  67% of total CitiBike users were between the ages of 25 and 44 suggesting that CitiBike is largely used by professional-aged individuals, perhaps because CitiBike offers a cost-efficient form of commuting. The remaining 29% of CitiBike trips in this data were taken by user who self-identified as 45+ years old.
+
+
+Location Insights:
+
+Overlay of Starting Station and Ending Station popularity maps suggest that CitiBike users tend to ride in a round-trip path. Indeed, all of the top 10 most popular Stating Stations are also the 10 most popular Ending stations. Moreover, the top 5 starting stations are also the same as the top 5 ending stations.
+
+Top 10 Ending Locations   | Top 10 Starting Locations
+1.   2 Ave & E 58 St      | 1 Ave & E 16 St
+2.   2 Ave & E 31 St      | 2 Ave & E 31 St
+3.   1 Ave & E 16 St      | 2 Ave & E 58 St
+4.   1 Ave & E 44 St      | 1 Ave & E 44 St
+5.   6 Ave & Broome St    | 6 Ave & Broome St
+6.   1 Ave & E 18 St      | 6 Ave & Canal St
+7.   6 Ave & Canal St     | 5 Ave & E 29th St
+8.   5 Ave & E 29th St    | 1 Ave & E 30 St
+9.   1 Ave & E 30 St      | 1 Ave & E 18 St
+10.  3 Ave & Schermerhorn | 3 Ave & Schermerhorn
+
+
+Using parameters, we observe that starting/ending station popularity even continues beyond the top 10 locations. While we are able to see that these stations are the most popular, what we don't know is how this number is impacted by number of available bikes at each station.
+
+CitiBike likely has higher amounts of inventory at stations that get the most bike traffic, so while bike availability could potentially skew these numbers, it is likely that higher bike population at these stations was a result of originally observed high usage.
+
+Of note, most of the top 10 usage stations are on the East side of Manhattan. This supports the idea that CitiBike offers a low-cost option to commuters who otherwise lack subway access on the East side and would have to use bus or car service to traverse Manhattan. 
